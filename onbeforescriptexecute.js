@@ -1,7 +1,7 @@
 // 'beforescriptexecute' event [es5]
 // original version: https://gist.github.com/jspenguin2017/cd568a50128c71e515738413cd09a890
 
-;(function() {
+(function() {
 	;('use strict')
 	function Event(script, target) {
 		this.script = script
@@ -89,4 +89,4 @@
 		childList: true,
 		subtree: true
 	})
-})()
+})();
